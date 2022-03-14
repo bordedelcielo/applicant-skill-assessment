@@ -1,0 +1,15 @@
+.main-thing, .fallback {
+    position: relative;
+}
+
+.box {
+    z-index:8;
+}
+
+.overlay {
+    z-index:1;
+}
+
+.fallback {
+    color: #e0e0e0;
+}
