@@ -6,4 +6,4 @@ Fundamentally, the reason Brave does not show the iframe is due to its ad blocki
 
 The ideal solution would be able respond to the missing embed directly somehow, rather than require a visual redesign of the site. A popup message on site load warning users to disable ad blocking could also function as an alternative.
 
-Given more time, I would spend more time looking for JavaScript could that would be able to discern the absence of the embedded iframes. The most promising solution I found involved using Vue.js to add a wrapper to the HTML that reads the load time of the embed. If the embed takes 10 seconds to show up, the code assumes that it will never load, and displays a fallback.
+Given more time, I would look for a JavaScript solution capable of discerning the absence of the embedded iframes. The most promising solution I found involved using Vue.js to add a wrapper to the HTML that reads the load time of the embed. If the embed takes 10 seconds to show up, the code assumes that it will never load, and displays a fallback.
